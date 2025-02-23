@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova pagina web </title>
+</head>
+
+<body>
+
+    <H1>SITO VACANZE INTELIGGENTI</H1>
+<h3>Prenotazione per posti stupendi</h3>
+<a href="#Vai-a-whattsapp"> <u>Whattsapp per prenotazione hotel</u></a>
+<h5>Prezzo conveniente</h5>
+<p>La mia Agenzia organizza <strong><mark> viaggi organizzati </mark></strong>  in modo differente <br>
+    Ti proponiamo vari <i>itinerari</i> da poter effetturare tranquillamenti da soli o <u>con i vosti amici.</u> <br>
+    Vi potete scegliere da soli i giorni,  in base al tempo per poter svolgere la vostra giornata tipo. <br>
+</p>
+<H2><center>AMERICA</center></H2> 
+<marquee><H2><p align="center">AMERICA</p></H2></marquee>
+<p><code>Gli Stati Uniti D'America</code> sono un paese enorme di circa 101010 m <sup>2</sup>, da visitare da nord a su<sub>d</sub> <br>
+</p>
+<hr>
+<p> La prima città che parleremo è San Francisco, in CALIFORNIA</p>.<br>
+<p>Una città dalle mille culture e tradizione, un mix tra cultura Americana vintage e moderna, e una natura selvaggia. <br>
+Da non perdere l'affascinanate carcere di Alcatraz.</p> <br>
+<a href="https://it.wikipedia.org/wiki/San_Francisco" 
+target="_blank" rel="sponsored"> SAN FRANCISCO HISTORY</a> <BR>
+<P> Dopo aver letto una parte di <u>storia</u> della bellissima città <mark>Californiana</mark> consigliamo dove alloggiare.</P><br>
+<a href="https://www.booking.com/hotel/us/argonaut-sf.it.html?aid=2311236&label=it-it-booking-desktop-VRZD0IC5lt9Ulq%2AajTZ_bgS652829000338%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9190276%3Ali%3Adec%3Adm&sid=e74edcb5fdfbfd0ec68b69737cd2c977&all_sr_blocks=5893306_91459206_2_0_0&checkin=2025-03-16&checkout=2025-03-17&dest_id=20015732&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=5893306_91459206_2_0_0&hpos=1&matching_block_id=5893306_91459206_2_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=5893306_91459206_2_0_0__27278&srepoch=1740334926&srpvid=11868122e30f0549&type=total&ucfs=1&"
+target="new"rel="sponsored,ugc"> HOTEL</a><br>
+<address>
+    Argonaut Hotel <br>
+    495 Jefferson Street , Fisherman Wharf <br>
+    94109 San Francisco CA <br>
+</address>
+
+<p align="center"><U>CONTATTI</U></p>
+<a href="mailto:info@argonauthotel.it"> info@argonauthotel.it</a> <br>
+<a href="tel+193333330000">333 333 0000</a><br>
+<a href="https://wa.me/193333330000"
+target="_blank"> <button> WHATTS APP </button> </a> <br>
+<a name="Vai-a-whattsapp"></a>
+
+</body>
+</html>
