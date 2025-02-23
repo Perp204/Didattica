@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--Scrivi html 5 per avere la struttura in automatico.
+Attributo Lang sta per la lingua utilizzata-->
+<html lang="it">
+<head>
+<!--Meta charset sta a indicare che la pagina utilizza carattere alfanumerici latini-->
+    <meta charset="UTF-8">
+<!--Meta viewport sta a indicare al browswer che i contenuti dello schermo
+ devono essere scalati in base allo schermo del dispositivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Titolo della pagina -->
+    <title>Document</title>
+
+    <!--Utilizzato dai motori di ricerca-->
+    <meta name="description" content="descrizione pagina web">
+
+    <!--meta name robots content: index ( compare sul motore di ricerca), 
+    no index dice al motore di ricerca che i contenuti non devono comparire,
+    mentre follow dice di seguire il percorso nei collegamenti, altrimenti indchiamo come valore nofollow
+    LEZIONE 5 HTML 1ora e 38 minuti-->
+    
+    <meta name="robots" content="noindex,follow">
+
+</head>
+<body>
+
+    <!--Per collegarsi a un segnalibro inserito nella posizione desiderata
+usiamo href con #nome del segnalibro-->
+<a href="#nome-del-segnalibro"><button>Vai alla pagina segnata</button></a>
+<br>
+
+<!--COLLEGAMENTO ESTERNO
+href con l'attributo TARGET:
+_new ( apre il collegamento in una nuova finestra)
+_blank ( apre il collegamento in una nuova scheda)
+Come proprietà intrinseca tutti i collegamenti si aprono nella stessa finestra!!  Come se l'attriburo di target sia _self / _parent
+
+SOLO PER I COLLEGAMENTI ESTERNI, dobbiamo attribuire un origine al collegamento esterno,
+usando l'attributo REL, se si tratta di un contenuto sponsorizzato inseriamo SPONSORED,
+per i collegamenti ai contenuti da non indicizzare usiamo NOFOLLOW,  
+al contrario se vogliamo indicizzare un contenuto esterno usiamo FOLLOW
+-->
+<a href="https://ecampus.istitutovolta.eu/appLms/index.php?r=lms/mycourses/show"> Collegamento VOLTA</a>
+<br>
+<a href="https://ecampus.istitutovolta.eu/appLms/index.php?r=lms/mycourses/show" target="_blank"> Collegamento</a>
+<br>
+<a href="https://ecampus.istitutovolta.eu/appLms/index.php?r=lms/mycourses/show" 
+target="_blank" rel="ugc,nofollow"> VOLTA</a>
+<br>
+<!--collegamento a un indirizzo email-->
+<a href="mailto:info@campari,it">info@campari.it</a>
+<br>
+<!--collegamento a numero di telefono - skppe - whatts app -->
+<a href="tel:+393478736062">MIO telefono</a>
+<br>
+<a href="https://wa.me/393478736062">MIO WHATTS APP</a>
+<br>
+<!--whatts app con bottone-->
+<a href="https://wa.me/393478736062"> <button> WHATTS APP</button></a>
+<br>
+<!--whatts app con messagio di cortesia (ti contatto dal sito) 20% indica gli spazi-->
+<a href="https://wa.me/393478736062?text=ti%20contatto%20dal%20sito">MIO WHATTS APP</a>
+<br>
+<!--Per collegamenti interni inserisco il percorso interno ( se stessa cartella basta solo il nome)
+e facoltativamente l'attributo TARGET-->
+<a href= "index1.html"> <h1> VAI AL SITO </h1></a>
+<br>
+<P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto pariatur eum quaerat earum atque? Iste, expedita? Accusamus cum hic nulla quos voluptatum totam qui et consequatur necessitatibus maiores. Facere, soluta?
+</P>
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatem quae non eaque, voluptatibus ducimus fugit eveniet nostrum illo ex vel provident laborum minima ea id. Voluptate nostrum reiciendis provident!
+</P>
+<!--PER COLLEGARSI A UNA PARTE DELLA PAGINA WEB DESIDERATA
+Crea prima il tag del segnalibro ( generalmente non necessita di chiusura)-->
+<a name="nome-del-segnalibro"></a>
+</body>
+</html>
