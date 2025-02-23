@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<!--Titolo pagina compare nel motore di ricerca-->
+<title>Titolo pagina</title>
+
+
+
+</head>
+<body>
+<!--Titolo grandi dimensioni e piccole dimensioni.
+ Da H1 a H6
+ Ogni tag possiede proprietà intrinsiche che è possibile modificare con gli attributi-->
+<h1>Titolo Pagina</h1>
+<h2>Sottotitolo</h2>
+<h3>Piccolo sottotiolo</h3>
+<h4>Ancora più piccolo</h4>
+<5>Piccolissimo</5>
+<h6>Il più piccolo</h6>
+
+<P> <strong> Roma è la <u>città più bella del mondo</u>, nonostante il traffico intenso </strong></P>
+<!--Situazione di conflitto, vince il tag interno-->
+<h1><h5>LAZIO</h5></h1>
+
+
+</body>
+
+</html>
