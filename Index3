@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Impaginazione base html5-->
+<!--1 Con il tah HEADER si indica la testata della pagina-->    
+  <header>
+    <h1>TITOLO VISIBILE</h1>
+  </header>
+  <nav>
+ <!--3 Con il tag NAV si indica l'area di menù di navigazione-->   
+   <p> Qui posso inserire un menù di navigazione</p>
+  </nav>
+<!--2 Con il tag MAIN si indica la parte centrale della pagina-->
+   <main>
+<!--4 Con il tag SECTION inseriamo le sezioni; blocchi orizzonatali di pagina-->
+    <section>Sezione 1 
+        <!--FARE ALLA FINE DI DIV !!!!  Il tag FIGURE è un contenitore dedicato alle immaggini-->
+        <figure>
+            <img src="https://www.lastrolabio.it/wp-content/uploads/2022/07/san-francisco.jpg">  <!--img si può non chiudere-->   <!--img si può non chiudere-->
+        </figure>
+            <img src="https://www.lastrolabio.it/wp-content/uploads/2022/07/san-francisco.jpg" alt="San Francisco">  <!--img si può non chiudere-->
+            <img src="sf.jpg.jpg"> <!--Inserire foto con estensioni dentro la cartellina del sito index-->
+             <!--1 ORA E 02 GUARDA PER INSER FOTO-->
+        
+            <!--img si può non chiudere-->
+
+    </section>
+    <section>Sezione 2 
+
+    </section>
+    <section>Sezione 3 
+    <!--5 Il tag ARTICLE è utile per inseririe un paragarefo in una sezione-->
+        <article>Articolo di un blog</article>
+    <!--6 Il tag ASIDE sta a indicare un tag laterale di un blocco articolo-->
+        <aside>Blocco/contenuto laterale </aside>
+
+    </section>
+
+
+
+    </main>
+
+  <!--7 Il tag FOOTER sta a indicare il piè di pagina della pagina web - Da 1 a 7 elementi di impaginazione-->
+    <footer>
+    <code>Copyright</code>    
+    <p>Questo è il piè di pagina</p>
+    </footer>
+    <!--FINE , Termine dell' impaginazione-->
+
+    <!--Poi ci sono i DIV , sono blocchi generici erditati dalla prima versione dell' HTML, ancora si usano!-->
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, natus corrupti. Cupiditate soluta reiciendis repudiandae porro quia aperiam doloribus, cum hic culpa ad, quaerat recusandae neque alias aut, accusantium sunt!
+    </p>
+</div>
+
+</body>
+</html>
