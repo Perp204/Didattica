@@ -8,7 +8,7 @@
 <body>
     <!--Impaginazione base html5-->
 <!--1 Con il tah HEADER si indica la testata della pagina-->    
-  <header>
+  <header align="center">
     <h1>TITOLO VISIBILE</h1>
   </header>
   <nav>
@@ -24,10 +24,12 @@
             <img src="https://www.lastrolabio.it/wp-content/uploads/2022/07/san-francisco.jpg">  <!--img si può non chiudere-->   <!--img si può non chiudere-->
         </figure>
             <img src="https://www.lastrolabio.it/wp-content/uploads/2022/07/san-francisco.jpg" alt="San Francisco">  <!--img si può non chiudere-->
-            <img src="sf.jpg.jpg"> <!--Inserire foto con estensioni dentro la cartellina del sito index-->
+            <img src="sf.jpg.jpg"><br> <!--Inserire foto con estensioni dentro la cartellina del sito index-->
              <!--1 ORA E 02 GUARDA PER INSER FOTO-->
-        
-            <!--img si può non chiudere-->
+            <img src="FOTO/san f. jpg.jpg">  <!--img si può non chiudere-->
+
+            <!--SPOSTIAMOCI SOTTO -->
+            
 
     </section>
     <section>Sezione 2 
@@ -57,6 +59,25 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, natus corrupti. Cupiditate soluta reiciendis repudiandae porro quia aperiam doloribus, cum hic culpa ad, quaerat recusandae neque alias aut, accusantium sunt!
     </p>
 </div>
+
+<!--ECCOCIIII-->
+
+<section title="Sezione 2" align="right"> 
+
+    <figure title="contenitore immagine">   
+        <img src="https://www.lastrolabio.it/wp-content/uploads/2022/07/san-francisco.jpg" alt="San Francisco"
+        width="70%" height="auto">  <!--img si può non chiudere-->
+    
+        <figcaption>Didascalia del' immaggine ... tram SF</figcaption>
+    
+    <!--si può aggiungere l'atributo ALT per indicare una descrizione delle immagini/ L attributo TITLE per il titolo, non verrà letto dal browser, ma può essere letto da motori di ricerca o social ( può essere inserito in altri tag tipo title o section) 
+    si può aggiungere a ogni tag contenitore per spiegare cosè dentro!  Per ridimensionare un immagine possiamo usare gli attributi WIDTH (LARGHEZZA in %, in px non si adatta alla pagina) e HEIGHT (LUNGHEZZA in px) Non c'è necessita di inserire sempre lunghezza dato che scala in automatic, per farla adattare mettere AUTO , con auto l'aletezza scala in base alla larghezza-->
+    <!--Il tag FIGCAPTION si usa dentro il tag FIGURE, per la didascalia dell' immaagine allineato all' immagine stessa, si può iseriere anche senza il tag figure si allinerà all' immagine lo stesso-->
+        <!-- Attributo Aligne non letto dalle immaggine, ma solo da cose di testo, se lo applico alla sezione o a qualche blocco anche div con la foto dentro funziona ALIGN- CENTER .  Se c'è il conflitto funzionerà sempre la periferia quelli interni -->
+    
+    </figure>
+
+</section>
 
 </body>
 </html>
