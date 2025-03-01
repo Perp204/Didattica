@@ -65,10 +65,10 @@
 <section title="Sezione 2" align="right"> 
 
     <figure title="contenitore immagine">   
-        <img src="https://www.lastrolabio.it/wp-content/uploads/2022/07/san-francisco.jpg" alt="San Francisco"
-        width="70%" height="auto">  <!--img si può non chiudere-->
+     <img src="https://www.lastrolabio.it/wp-content/uploads/2022/07/san-francisco.jpg" alt="San Francisco"
+     width="70%" height="auto">  <!--img si può non chiudere-->
     
-        <figcaption>Didascalia del' immaggine ... tram SF</figcaption>
+     <figcaption>Didascalia del' immaggine ... tram SF</figcaption>
     
     <!--si può aggiungere l'atributo ALT per indicare una descrizione delle immagini/ L attributo TITLE per il titolo, non verrà letto dal browser, ma può essere letto da motori di ricerca o social ( può essere inserito in altri tag tipo title o section) 
     si può aggiungere a ogni tag contenitore per spiegare cosè dentro!  Per ridimensionare un immagine possiamo usare gli attributi WIDTH (LARGHEZZA in %, in px non si adatta alla pagina) e HEIGHT (LUNGHEZZA in px) Non c'è necessita di inserire sempre lunghezza dato che scala in automatic, per farla adattare mettere AUTO , con auto l'aletezza scala in base alla larghezza-->
@@ -76,7 +76,24 @@
         <!-- Attributo Aligne non letto dalle immaggine, ma solo da cose di testo, se lo applico alla sezione o a qualche blocco anche div con la foto dentro funziona ALIGN- CENTER .  Se c'è il conflitto funzionerà sempre la periferia quelli interni -->
     
     </figure>
+</section>
 
+<section title="Sezione Video e audio">
+ 
+<!--Gli elementi multimediali come audio e video necessitano sempre di un contenitore
+Esisstoni vari attributi CONTROLS fa comparire il tasto play - WIDHT e HEIGHT per le dimensioni
+AUTOPLAY fa partire in automatico - MUTED fa partire senza audio-->
+ 
+<!-- In source va indicata la posizione del video da inserire, in type il formato-->
+  <video controls width="100%" height="auto" muted autoplay>   
+    <source src="IMG_9030.MOV" type="video/mp4">
+  </video>
+<!--In presenza di più formati si aggiunge source aggiuntivi-->
+
+  <audio controls autoplay >
+    <source src="Gazzelle - IDEM.mp3" type="audio/mp3"> 
+  </audio>
+<!--Gli attributi video sono validi anche per audio-->
 </section>
 
 </body>
