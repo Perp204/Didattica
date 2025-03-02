@@ -31,9 +31,9 @@
             </div>
             <div align="right" title="Contenitore video">
                 <video controls autoplay muted width="35%" height="280px" >
-                <source src="Santa Monica.MOV" type="video/mp4">
+                <source src="Video/Santa Monica.MOV" type="video/mp4">
                 </video> <br>
-                <audio controls autoplay src="California Love.mp3" type="audio/mp3">
+                <audio controls autoplay src="Musica/California Love.mp3" type="audio/mp3">
                 </audio>
             </div>
          </article>
@@ -65,13 +65,14 @@
 
     <section align="right" title="Link Itinerario 4 giorni in L.A."> 
        <h4><u>ITINERARIO</u></h4> <br>
-          <a href="#" target="_blank" rel="follow,ugc">
+          <a href="Day1.html" target="_blank" rel="follow,ugc">
             <strong>DAY 1</strong></a><br>
           <a href="#" target="_blank" rel="follow,ugc">
                 <strong>DAY 2</strong></a><br>
           <a href="#" target="_blank" rel="follow,ugc">
                     <strong>DAY 3</strong></a>
-    </section>
+          </section>
     </main>
 </body>
 </html>
+
