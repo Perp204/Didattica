@@ -6,6 +6,7 @@
     <title>California</title>
 </head>
 <body>
+  <nav>
     <header align="center">
         <h1><code> CALIFORNIIA </code></h1>
         <h3>THE GOLDEN STATE</h3>
@@ -30,7 +31,7 @@
               </figure>
             </div>
             <div align="right" title="Contenitore video">
-                <video controls autoplay muted width="35%" height="280px" >
+                <video controls autoplay muted loop width="35%" height="280px" >
                 <source src="Video/Santa Monica.MOV" type="video/mp4">
                 </video> <br>
                 <audio controls autoplay src="Musica/California Love.mp3" type="audio/mp3">
@@ -73,6 +74,6 @@
                     <strong>DAY 3</strong></a>
           </section>
     </main>
+</nav>
 </body>
 </html>
-
