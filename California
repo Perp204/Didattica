@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California</title>
+</head>
+<body>
+    <header align="center">
+        <h1><code> CALIFORNIIA </code></h1>
+        <h3>THE GOLDEN STATE</h3>
+    </header>
+
+<main>
+     <section title="Description Los Angeles con foto e video">
+         <aside><h4><strong><u>LOS ANGELES </u></strong></h4></aside>
+
+         <article align="justify" title="Descrizione Los Angeles">
+            <p><i>Los Angeles è la seconda città degli Stati Uniti per popolazione dopo New York. La municipalità <br> di Los Angeles costituisce, assieme a numerosi altri centri delle contee di Los Angeles e Orange <br> una vastissima area urbana che con oltre 13 milioni di abitanti è la seconda degli Stati Uniti <br> dopo quella di New York e tra le prime del mondo. Gli abitanti di Los Angeles sono noti anche <br> come Angelenos. La città ha una delle popolazioni più diversificate etnicamente del mondo. <br>Negli Stati Uniti, solo Miami ha una maggiore percentuale di abitanti nati all'estero. <br>L'aeroporto internazionale di Los Angeles (LAX) è la maggior porta d'ingresso nel paese per<br> gli immigrati.
+                La popolazione di origine ispanica (soprattutto messicana, guatemalteca,<br> salvadoregna, honduregna e nicaragueense) aumenta in misura considerevole di anno in anno,<br> 
+                al punto che la città è praticamente bilingue. </i></p>
+        </article>
+               
+        <article title="Contenitore photo video" > 
+            <div align="right" title="Contenitore Foto">
+             <figure>
+                <img src="https://media.gettyimages.com/id/478821794/it/foto/grattacieli-di-skyline-di-los-angeles-larchitettura-paesaggio-urbano-urbano.jpg?s=612x612&w=0&k=20&c=eXHO1mkbsbLB8FQrM0CPk7UeFcAla9xH7qmDrAlZbRw="
+                 alt="Photo Downtown LA" title="Downtown L.A." width="35%" height="280px">
+                    <figcaption> Downtown Los Angeles </figcaption>
+              </figure>
+            </div>
+            <div align="right" title="Contenitore video">
+                <video controls autoplay muted width="35%" height="280px" >
+                <source src="Santa Monica.MOV" type="video/mp4">
+                </video> <br>
+                <audio controls autoplay src="California Love.mp3" type="audio/mp3">
+                </audio>
+            </div>
+         </article>
+     </section>
+         
+     
+    <section title="Descrizione offerte per il viaggio">
+        <aside><h4><strong><u>OFFERTE PER IL VIAGGIO</u></strong></h4></aside>
+            <article title="Offerte di viaggio">
+                <p><i>Partenza da Roma Fiumicino - arrivo Los Angeles California <br>
+                 Volo diretto A/R <br>
+                 Hotel nella suggestiva Venice Beach ⛱️ </i></p> <br>
+            </article>
+            <article title="Liste di offerte">
+              <h4><strong><u>INFO HOTEL E VOLO</u></strong></h4>
+                <address>
+                Inn at Venice Beach <br>
+                Waschington Boulevard 327 📍<br>
+                Venice Beach - Los Angeles <br> </address>
+                <a href="mailto:Infoprenotation@innatvenice@gmail.com"> <i>
+                 Infoprenotation@innatvenice@gmail.com</i> </a><br><br>
+                <a href="https://wa.me/3233333330"><button>Whatts app</button></a> <br><br>
+               <li><a href="https://www.skyscanner.it/trasporti/voli/rome/laxa/250512/250525/config/11493-2505120930--30727-0-13416-2505121315%7C13416-2505251515--30727-0-11493-2505261155?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1" 
+                target="_blank" rel="sponsored"> VOLO A/R ITA AIRWAYS </a> <br><br>
+               <li><a href="https://www.booking.com/hotel/us/inn-at-venice-beach.it.html?aid=2311236&label=it-it-booking-desktop-VRZD0IC5lt9Ulq%2AajTZ_bgS652828999642%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9201466%3Ali%3Adec%3Adm&sid=e74edcb5fdfbfd0ec68b69737cd2c977&all_sr_blocks=30640502_0_2_0_0&checkin=2025-05-12&checkout=2025-05-15&dest_id=20014181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=4&highlighted_blocks=30640502_0_2_0_0&hpos=4&matching_block_id=30640502_0_2_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=30640502_0_2_0_0__61940&srepoch=1740874922&srpvid=2b51028b8fa6048c&type=total&ucfs=1&" 
+                target="_blank" rel="sponsored"> HOTEL VENICE BEACH  </a>
+            </article>
+     </section>
+
+    <section align="right" title="Link Itinerario 4 giorni in L.A."> 
+       <h4><u>ITINERARIO</u></h4> <br>
+          <a href="#" target="_blank" rel="follow,ugc">
+            <strong>DAY 1</strong></a><br>
+          <a href="#" target="_blank" rel="follow,ugc">
+                <strong>DAY 2</strong></a><br>
+          <a href="#" target="_blank" rel="follow,ugc">
+                    <strong>DAY 3</strong></a>
+    </section>
+    </main>
+</body>
+</html>
