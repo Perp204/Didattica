@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 Los Angeles</title>
+</head>
+<body>
+    <header align ="center">
+        <h1><strong>LOS ANGELES DAY 1</strong></h1>
+    </header>
+    <section title="Descrizione primo giorno LA">
+        <h3><strong><u>DESCRIZIONE</u></strong></h3>
+        <article>
+            <p> <i>Arriveremo alle ore 13.00 preso il L.A. Airport. Sarà un viaggio lungo e stancante nonostante <br>
+                 l'adrenalina per inizare questa avventura. Appena arrivati prenderemo un bel caffè stile <br> 
+                 Amricano per cercare di alleviare le ore di fuso e di viaggio. Una volta usciti dal grandissimo <br>
+                 aereoporto di Los Angeles, ci dirigiremo in zona <strong>Venice Beach</strong> per fare il check in in 
+                 <a href="https://www.booking.com/hotel/us/inn-at-venice-beach.it.html?aid=2311236&label=it-it-booking-desktop-VRZD0IC5lt9Ulq%2AajTZ_bgS652828999642%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9201466%3Ali%3Adec%3Adm&sid=e74edcb5fdfbfd0ec68b69737cd2c977&all_sr_blocks=30640502_0_2_0_0&checkin=2025-05-12&checkout=2025-05-15&dest_id=20014181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=4&highlighted_blocks=30640502_0_2_0_0&hpos=4&matching_block_id=30640502_0_2_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=30640502_0_2_0_0__61940&srepoch=1740874922&srpvid=2b51028b8fa6048c&type=total&ucfs=1&"
+                 target="_blank" rel="sponsored">hotel</a> ,<br> 
+                 posare le valigie, una bella doccia e si riparte subito, direzione <strong>Downtown<br></strong>
+                 Ci perderemo tra gli altissimi grattacieli della metropoli, sentiremo musica dal vivo <br> 
+                 sorseggiando un buon bicchiere di vino e aspetteremo il crepuscolo per dirigerci a cena in <br>
+                 qualche tipico fast food. Dopo mangiato ci dirigeremo verso <strong>Hollywood</strong> , di sera è tutta un <br> 
+                 altra atmosfera. <br> Dopo una passeggiata tra le stelle torneremo in hotel per riposare il nostro corpo e assumenre <br> 
+                 energie per il DAY2 ... Ne avremo biosgno!!! </i></p>
+        </article>
+    </section>
+    <section align="right" title="Foto e video Day 1 L.A.">
+        <figure>
+            <img src="foto/Downtown L.A.jpg" width="17%" height="auto" alt="Downtown">
+            <figcaption>Vista della Downtown Los Angeles</figcaption>
+        </figure>
+        <video controls autoplay muted width="18%" height="auto">
+            <source src="Video/Music Downtown LA.MOV">
+        </video>
+        <figure>
+            <img src="foto/Star Hopkhins.jpg" alt="Stella Wollywood Hopkhins" 
+            width="18%" height="auto">
+            <figcaption>Hollywood Blvd (Star Antony Hophinks)</figcaption>
+        </figure>
+        </section>
+</body>
+</html>
