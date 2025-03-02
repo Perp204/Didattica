@@ -6,6 +6,7 @@
     <title>Day 1 Los Angeles</title>
 </head>
 <body>
+    <nav>
     <header align ="center">
         <h1><strong>LOS ANGELES DAY 1</strong></h1>
     </header>
@@ -40,5 +41,6 @@
             <figcaption>Hollywood Blvd (Star Antony Hophinks)</figcaption>
         </figure>
         </section>
+    </nav>
 </body>
 </html>
