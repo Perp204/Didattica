@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEZIONE 4 MARZO IFRAME</title>
+</head>
+<body>
+    <!--Il tag IFRAME serve per inglobare contenuti esterni-->
+    <iframe src="index5.html" width="500px" height="200px"></iframe> <br>
+
+    <!--Serve anche per incorporare video da you tube andando sul video - condividi - incorpora - copia incolla link  
+    modifica dimensioni / su allow puoi aggiungere attributi come autoplay-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Jbn5Y7gDLs?si=l-46ZyajOxL234oq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+
+   <!--MAPPE GOOGLE Condividi incorpora-->
+       
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6048.9528096460235!2d-73.99073968803532!3d40.70752783776945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bd2cc7981ff%3A0x174769439ba1b304!2sE%20River%20Ferry%2C%20New%20York%2C%20NY%2C%20Stati%20Uniti!5e0!3m2!1sit!2sit!4v1741113771992!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
