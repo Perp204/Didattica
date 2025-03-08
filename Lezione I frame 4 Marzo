@@ -9,9 +9,9 @@
     <!--Il tag IFRAME serve per inglobare dei contenuti esterni
     Posso incorporare contenuti sia interni che esterni. Non è necessaria la chiusura 
     Molti siti web hanno firewall che impedisce l'incorporamento-->
-    <iframe src="index5.html" width="500px" height="200px"> </iframe> <br>  <!--Preso da altra pagina index 5 -->
+    <iframe src="index2.html"width="500px" height="200px"> </iframe> <br>  <!--Preso da altra pagina index 5 -->
     <iframe src="https://www.corrieredellosport.it/" width="100%" height="400px"> </iframe> <br>  <!-- Preso da sito-->
-    <iframe src="index6.html" width="100%" height="200px"></iframe> <br> <!--Preso da altra pagina index 6 -->
+    <iframe src="index3.html" width="100%" height="200px"></iframe> <br> <!--Preso da altra pagina index 6 -->
     
     
     <!--Serve anche per incorporare video da you tube - andando sul video - condividi - incorpora - posso scegliere se mostrare i controlli del player - copia incolla link  
@@ -20,10 +20,62 @@
     
     
     <iframe width="560" height="315" src="https://www.youtube.com/embed/7Jbn5Y7gDLs?si=l-46ZyajOxL234oq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Jbn5Y7gDLs?si=l-46ZyajOxL234oq&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Stesso video ma parte da 30 secondi; modificato da you tube (CONDIVIDI/INCORPORA/INIZIA DA ....)-->
+    <iframe id="ytplayer" type="text/html" width="720" height="405"
+    src="https://www.youtube.com/embed/7Jbn5Y7gDLs?autoplay=1&loop=1"
+    frameborder="0" allowfullscreen>  <!--Abbiamo modificato il video DIRETTAMENTE da:  Riferimento api - Seamples - Content - Copia SOLO Url del video - Show player contol - update player - MODIFICO DIRETTAMENTE DA QUI (Metodo migliore) COPIA - INCOLLA TUTTO LINK -/ HO MESSO AUTOPLAY -->
+    
 
-   <!--MAPPE GOOGLE Condividi incorpora-->
-       
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6048.9528096460235!2d-73.99073968803532!3d40.70752783776945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bd2cc7981ff%3A0x174769439ba1b304!2sE%20River%20Ferry%2C%20New%20York%2C%20NY%2C%20Stati%20Uniti!5e0!3m2!1sit!2sit!4v1741113771992!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <!--MAPPE GOOGLE Condividi incorpora -->
+   <br>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5631.656238074689!2d7.638702775956756!3d45.10955217107033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886c17f7814e37%3A0xe3be8084a88d8da5!2sAllianz%20Stadium!5e0!3m2!1sit!2sit!4v1741456050927!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <br>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.1651640828813!2d7.640086776257098!3d45.109786825306344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886c17f7814e37%3A0xe3be8084a88d8da5!2sAllianz%20Stadium!5e1!3m2!1sit!2sit!4v1741456196938!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+   <!-- GOOGLE MY MAPS - Ho creato un tragitto - itinerario con la mappa!-->
+    <H3>ITINERARIO GOOGLE MY MAPS</H3>
+   <iframe src="https://www.google.com/maps/d/embed?mid=19ooZm2tAKK4l2L3bHNvzsQCfXMYX-Bw&ehbc=2E312F" width="640" height="480"></iframe>
+<br>
+<!--Inserisco pagina social FACEBOOK, da Facebook developer social plugin-->
+<h3>PAGINA FB JUVENTUS</h3>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJuventus&tabs=timeline%2C%20events%2C&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<br>
+<!--Per CONDIVIDERE la pagina -->
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2FJuventus&layout&size&width=124&height=20&appId" width="124" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<br>
+<!-- Per mettere il tasto MI PIACE -->
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FJuventus&width=450&layout&action&size&share=false&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<!--Link TWITTER da TWITTER PUBLISH-->
+<a class="twitter-timeline" href="https://twitter.com/juventusfc?ref_src=twsrc%5Etfw">Tweets by juventusfc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+<!--CANVA / Brochure-->
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGhLsr5Jys/BVoUCWf5updFl_CwETdIoA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGhLsr5Jys&#x2F;BVoUCWf5updFl_CwETdIoA&#x2F;view?utm_content=DAGhLsr5Jys&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Presentazione Organizzare Viaggiare Collage Carta Fatto A Mano Foto Bianco</a> di marco perpetua
+<!--Playlist di SPOTIFY-->
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5K79FLRUCSysQnVESLcTdb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<!--MODULO JOPFROM-->
+
+<iframe
+id="JotFormIFrame-250666404284357"
+title="New Customer Registration Form"
+onload="window.parent.scrollTo(0,0)"
+allowtransparency="true"
+allow="geolocation; microphone; camera; fullscreen"
+src="https://form.jotform.com/250666404284357"
+frameborder="0"
+style="min-width:100%;max-width:100%;height:539px;border:none;"
+scrolling="no"
+>
+</iframe>
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+<script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-250666404284357']", "https://form.jotform.com/")</script>
+
 </body>
 </html>
