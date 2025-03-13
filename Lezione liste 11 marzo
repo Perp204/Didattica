@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEZIONE CSS</title>
+    <!--Questi link servono per creare siti multilingua, creazione di link alternativi per altre lingue-->
+    <link rel=”alternate” href=”https://www.miosito.com/it/mia-pagina” hreflang=”it ” />
+    <link rel=”alternate” href=”https://www.miosito.com/it/mia-pagina/english” hreflang=”en ” />
+<!--LINK DA ICONS.GETBOOTSTRAP/ Per importare la libreria delle ICONE da usare-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <ul>  <!--Elenco di testo-->
+        <li><a href="#">primo</a></li>   <!--collegamento a link-->
+        <a href="#"> <li>primo</li></a>  <!--collegamento a link incluso l'elenco numerato-->
+        <li></i>primo</li>
+        <li>primo</li>
+        <ul>
+            <li>Secondo</li>
+            <li>secondo</li>
+            <li><i class="bi bi-suit-spade-fill"></i>secondo</li>
+            <li>secondo</li>
+            <ul>
+                <li>Terzo</li>
+                <li>Terzo</li>
+                <li>Terzo</li>
+            </ul>
+            <li>Secondo</li>
+          </ul> 
+        <li>primo</li>
+        </ul>
+<br>
+    <ol>  <!--Elenco numerico-->
+        <li>Primo</li>
+        <li>Primo</li>
+        <li>Primo</li>
+        <ol>
+            <li>Secondo</li>
+            <li>secondo</li>
+            <ul>
+                <li>Terzo</li>  <!--Posso anche mixarlo tag di testo e numerati-->
+            </ul>
+        </ol>
+     </ol>
+
+        
+</body>
+</html>
