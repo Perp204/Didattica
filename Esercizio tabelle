@@ -6,9 +6,16 @@
     <title>Esercizio tabella</title>
 </head>
 <style>
-    #Grassetto {
+    #Grassettoedestra {
         font-weight: bolder;
-    }
+        text-align: right;} 
+        
+    #centrale {
+        text-align: center;}
+  
+    #destra {
+        text-align: right; }
+/*Si possono attribuire 2 id Insieme??? */
 </style>
 
 <body>
@@ -23,288 +30,288 @@
                 <th width="100px"align="right"> Tiratura totale</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody title="Corpo della tabella">
             <tr>
-                <td>1955</td>
-                <td>NC</td>
-                <td>8.600.000</td>
+                <td id="centrale">1955</td>
+                <td id="centrale">NC</td>
+                <td id="destra">8.600.000</td>
+                <td id="destra"></td>
                 <td></td>
-                <td></td>
-                <td id="Grassetto">8.600.000</td>
+                <td id="Grassettoedestra">8.600.000</td>
             </tr>
             <tr>
-                <td>1956</td>
-                <td>CC</td>
-                <td>99.800.000</td>
+                <td id="centrale">1956</td>
+                <td id="centrale">CC</td>
+                <td id="destra">99.800.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">99.800.000</td>
+                <td id="Grassettoedestra">99.800.000</td>
             </tr>
             <tr>
-                <td>1957</td>
-                <td>CC</td>
-                <td>90.600.000</td>
+                <td id="centrale">1957</td>
+                <td id="centrale">CC</td>
+                <td id="destra">90.600.000</td>
                 <td> </td>
                 <td></td>
-                <td id="Grassetto">90.600.000</td>
+                <td id="Grassettoedestra">90.600.000</td>
             </tr>
             <tr>
-                <td>1958</td>
-                <td>C</td>
-                <td>25.640.000</td>
+                <td id="centrale">1958</td>
+                <td id="centrale">C</td>
+                <td id="destra">25.640.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">25.640.000</td>
+                <td id="Grassettoedestra">25.640.000</td>
             </tr>
             <tr>
-                <td>1959</td>
-                <td>C</td>
-                <td>19.500.000</td>
+                <td id="centrale">1959</td>
+                <td id="centrale">C</td>
+                <td id="destra">19.500.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">19.500.000</td>
+                <td id="Grassettoedestra">19.500.000</td>
             </tr>
             <tr>
-                <td>1960</td>
-                <td>C</td>
-                <td>20.700.000</td>
+                <td id="centrale">1960</td>
+                <td id="centrale">C</td>
+                <td id="destra">20.700.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">20.700.000</td>
+                <td id="Grassettoedestra">20.700.000</td>
             </tr>
             <tr>
-                <td>1961</td>
-                <td>C</td>
-                <td>11.860.000</td>
+                <td id="centrale">1961</td>
+                <td id="centrale">C</td>
+                <td id="destra">11.860.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">11.860.000</td>
+                <td id="Grassettoedestra">11.860.000</td>
             </tr>
             <tr>
-                <td>1962</td>
-                <td>C</td>
-                <td>21.700.000</td>
+                <td id="centrale">1962</td>
+                <td id="centrale">C</td>
+                <td id="destra">21.700.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">11.700.000</td>
+                <td id="Grassettoedestra">11.700.000</td>
             </tr>
             <tr>
-                <td>1963</td>
-                <td>CC</td>
-                <td>33.100.000</td>
+                <td id="centrale">1963</td>
+                <td id="centrale">CC</td>
+                <td id="destra">33.100.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">21.700.000</td>
+                <td id="Grassettoedestra">21.700.000</td>
             </tr>
             <tr>
-                <td>1964</td>
-                <td>CC</td>
-                <td>31.000.000</td>
+                <td id="centrale">1964</td>
+                <td id="centrale">CC</td>
+                <td id="destra">31.000.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">33.100.000</td>
+                <td id="Grassettoedestra">33.100.000</td>
             </tr>
             <tr>
-                <td>1965</td>
-                <td>CC</td>
-                <td>37.000.000</td>
+                <td id="centrale">1965</td>
+                <td id="centrale">CC</td>
+                <td id="destra">37.000.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">31.300.000</td>
+                <td id="Grassettoedestra">31.300.000</td>
             </tr>
             <tr>
-                <td>1966</td>
-                <td>CC</td>
-                <td>52.500.000</td>
+                <td id="centrale">1966</td>
+                <td id="centrale">CC</td>
+                <td id="destra">52.500.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">37.000.000</td>
+                <td id="Grassettoedestra">37.000.000</td>
             </tr>
             <tr>
-                <td>1967</td>
-                <td>CC</td>
-                <td>23.700.000</td>
+                <td id="centrale">1967</td>
+                <td id="centrale">CC</td>
+                <td id="destra">23.700.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">52.500.000</td>
+                <td id="Grassettoedestra">52.500.000</td>
             </tr>
             <tr>
-                <td>1968</td>
-                <td>CC</td>
-                <td>34.100.000</td>
-                <td>100.000</td>
+                <td id="centrale">1968</td>
+                <td id="centrale">CC</td>
+                <td id="destra">34.100.000</td>
+                <td id="destra">100.000</td>
                 <td></td>
-                <td id="Grassetto">23.700.000</td>
+                <td id="Grassettoedestra">23.700.000</td>
             </tr>
             <tr>
-                <td>1969</td>
-                <td>CC</td>
-                <td>27.400.000</td>
-                <td>310.000</td>
+                <td id="centrale">1969</td>
+                <td id="centrale">CC</td>
+                <td id="destra">27.400.000</td>
+                <td id="destra">310.000</td>
                 <td></td>
-                <td id="Grassetto">34.200.000</td>
+                <td id="Grassettoedestra">34.200.000</td>
             </tr>
             <tr>
-                <td>1970</td>
-                <td>CC</td>
-                <td>24.000.000</td>
-                <td>1.011.000</td>
+                <td id="centrale">1970</td>
+                <td id="centrale">CC</td>
+                <td id="destra">24.000.000</td>
+                <td id="destra">1.011.000</td>
                 <td></td>
-                <td id="Grassetto">25.011.000</td>
+                <td id="Grassettoedestra">25.011.000</td>
             </tr>
             <tr>
-                <td>1971</td>
-                <td>CC</td>
-                <td>24.900.000</td>
+                <td id="centrale">1971</td>
+                <td id="centrale">CC</td>
+                <td id="destra">24.900.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">24.900.000</td>
+                <td id="Grassettoedestra">24.900.000</td>
             </tr>
             <tr>
-                <td>1972</td>
-                <td>CC</td>
-                <td>31.700.000</td>
+                <td id="centrale">1972</td>
+                <td id="centrale">CC</td>
+                <td id="destra">31.700.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">31.700.000</td>
+                <td id="Grassettoedestra">31.700.000</td>
             </tr>
             <tr>
-                <td>1973</td>
-                <td>CC</td>
-                <td>30.780.000</td>
+                <td id="centrale">1973</td>
+                <td id="centrale">CC</td>
+                <td id="destra">30.780.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">30.780.000</td>
+                <td id="Grassettoedestra">30.780.000</td>
             </tr>
             <tr>
-                <td>1974</td>
-                <td>CC</td>
-                <td>61.020.000</td>
+                <td id="centrale">1974</td>
+                <td id="centrale">CC</td>
+                <td id="destra">61.020.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">61.020.000</td>
+                <td id="Grassettoedestra">61.020.000</td>
             </tr>
             <tr>
-                <td>1975</td>
-                <td>CC</td>
-                <td>106.650.000</td>
+                <td id="centrale">1975</td>
+                <td id="centrale">CC</td>
+                <td id="destra">106.650.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">106.650.000</td>
+                <td id="Grassettoedestra">106.650.000</td>
             </tr>
             <tr>
-                <td>1976</td>
-                <td>CC</td>
-                <td>160.020.000</td>
+                <td id="centrale">1976</td>
+                <td id="centrale">CC</td>
+                <td id="destra">160.020.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">160.020.000</td>
+                <td id="Grassettoedestra">160.020.000</td>
             </tr>
             <tr>
-                <td>1977</td>
-                <td>CC</td>
-                <td>253.9800.000</td>
+                <td id="centrale">1977</td>
+                <td id="centrale">CC</td>
+                <td id="destra">253.9800.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">253.980.000</td>
+                <td id="Grassettoedestra">253.980.000</td>
             </tr>
             <tr>
-                <td>1978</td>
-                <td>CC</td>
-                <td>343.626.000</td>
+                <td id="centrale">1978</td>
+                <td id="centrale">CC</td>
+                <td id="destra">343.626.000</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">343.626.000</td>
+                <td id="Grassettoedestra">343.626.000</td>
             </tr>
             <tr>
-                <td>1979</td>
-                <td>CC</td>
-                <td>351.533.600</td>
+                <td id="centrale">1979</td>
+                <td id="centrale">CC</td>
+                <td id="destra">351.533.600</td>
                 <td></td>
                 <td></td>
-                <td id="Grassetto">351.533.600</td>
+                <td id="Grassettoedestra">351.533.600</td>
             </tr>
             <tr>
-                <td>1980</td>
-                <td>CC</td>
-                <td>257.272</td>
-                <td>100.000</td>
+                <td id="centrale">1980</td>
+                <td id="centrale">CC</td>
+                <td id="destra">257.272</td>
+                <td id="destra">100.000</td>
                 <td></td>
-                <td id="Grassetto">69.938.500</td>
+                <td id="Grassettoedestra">69.938.500</td>
             </tr>
             <tr>
-                <td>1981</td>
-                <td>CC</td>
-                <td>122.118.906</td>
-                <td>162.794</td>
+                <td id="centrale">1981</td>
+                <td id="centrale">CC</td>
+                <td id="destra">122.118.906</td>
+                <td id="destra">162.794</td>
                 <td></td>
-                <td id="Grassetto">122.281.700</td>
+                <td id="Grassettoedestra">122.281.700</td>
             </tr>
             <tr>
-                <td>1982</td>
-                <td>CC</td>
-                <td>39.380.050</td>
-                <td>119.950</td>
+                <td id="centrale">1982</td>
+                <td id="centrale">CC</td>
+                <td id="destra">39.380.050</td>
+                <td id="destra">119.950</td>
                 <td></td>
-                <td id="Grassetto">39.500.000</td>
+                <td id="Grassettoedestra">39.500.000</td>
             </tr>
             <tr>
-                <td>1983</td>
-                <td>CC</td>
-                <td>24.923.448</td>
-                <td>76.552</td>
+                <td id="centrale">1983</td>
+                <td id="centrale">CC</td>
+                <td id="destra">24.923.448</td>
+                <td id="destra">76.552</td>
                 <td></td>
-                <td id="Grassetto">25.000.000</td>
+                <td id="Grassettoedestra">25.000.000</td>
             </tr>
             <tr>
-                <td>1984</td>
-                <td>CC</td>
-                <td>9.922.959</td>
-                <td>77.041</td>
+                <td id="centrale">1984</td>
+                <td id="centrale">CC</td>
+                <td id="destra">9.922.959</td>
                 <td></td>
-                <td id="Grassetto">10.000.000</td>
+                <td></td>
+                <td id="Grassettoedestra">10.000.000</td>
             </tr>
             <tr>
-                <td>1985</td>
-                <td>CC</td>
-                <td>9.908.782</td>
-                <td>76.552</td>
-                <td>20.345</td>
-                <td id="Grassetto">10.020.345</td>
+                <td id="centrale">1985</td>
+                <td id="centrale">CC</td>
+                <td id="destra">9.908.782</td>
+                <td id="destra">76.552</td>
+                <td id="destra">20.345</td>
+                <td id="Grassettoedestra">10.020.345</td>
             </tr>
             <tr>
-                <td>1986</td>
-                <td>CC</td>
-                <td>17.926.000</td>
-                <td>73.200</td>
-                <td>17.500</td>
-                <td id="Grassetto">23.700.000</td>
+                <td id="centrale">1986</td>
+                <td id="centrale">CC</td>
+                <td id="destra">17.926.000</td>
+                <td id="destra">73.200</td>
+                <td id="destra">17.500</td>
+                <td id="Grassettoedestra">23.700.000</td>
             </tr>
             <tr>
-                <td>1987</td>
-                <td>CC</td>
-                <td>24.952.500</td>
-                <td>57.500</td>
-                <td>10.000</td>
-                <td id="Grassetto">25.010.000</td>
+                <td id="centrale">1987</td>
+                <td id="centrale">CC</td>
+                <td id="destra">24.952.500</td>
+                <td id="destra">57.500</td>
+                <td id="destra">10.000</td>
+                <td id="Grassettoedestra">25.010.000</td>
             </tr>
             <tr>
-                <td>1988</td>
-                <td>CC</td>
-                <td>24.948.950</td>
-                <td>51.050</td>
-                <td>9.000</td>
-                <td id="Grassetto">23.009.000</td>
+                <td id="centrale">1988</td>
+                <td id="centrale">CC</td>
+                <td id="destra">24.948.950</td>
+                <td id="destra">51.050</td>
+                <td id="destra">9.000</td>
+                <td id="Grassettoedestra">23.009.000</td>
             </tr>
         </tbody>
-         <tfoot> 
+         <tfoot title="Pie di pagina"> 
             <tr>
-                <td>1989</td>
-                <td>CC</td>
-                <td>33.948.800</td>
-                <td>51.200</td>
-                <td>9.000</td>
-                <td id="Grassetto">34.009.260</td>
+                <td id="centrale">1989</td>
+                <td id="centrale">CC</td>
+                <td id="destra">33.948.800</td>
+                <td id="destra">51.200</td>
+                <td id="destra">9.000</td>
+                <td id="Grassettoedestra">34.009.260</td>
             </tr>
         </tfoot> 
     </table>
