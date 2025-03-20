@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table,th ,td {
+        border-width: 1px; 
+        border-style: solid;
+        border-collapse: collapse;
+        border-color: black;
+    }
+</style>
+
+</head>
+<body>
+    <table width="100%">
+        <thead>
+        <tr style="background-color: aqua;">
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Età</th>
+        </tr>
+        </thead>
+        <tbody style="background-color: lightcoral";>
+        <tr>
+            <td colspan="2">Mario Rossi</td> <!--Attributo COLPSAN per unire celle in orizzontale, con valore il numero di celle da unire-->
+            <!--CANCELLATA la cella dove c'era Rossi perchè unita-->
+            <td>25</td>
+        </tr>
+        <tr style="background-color: blue;color: rgb(225, 16, 16);" >
+            <td rowspan="2">Luca</td> <!--Attributo ROWSPAN per unire celle in verticale, con valore il numero di celle da unire-->
+            <td>Bianchi</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <!--Cancellato unito in verticale-->
+            <td>Verdi</td>
+            <td>35</td>
+        </tr>
+        </tbody>
+</body>
+</html>
