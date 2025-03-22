@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ <!--innesto del css esterno-->
+ <link rel="stylesheet" href="stile.css" type="text/css">
+<style>
+  /* CSS IN PAGINA - Qui scriviamo all'interno del tag style*/
+h1 {
+  text-transform: uppercase;
+}
+/* Text transform serve per trasformare il carattere. 
+UPPERCASE tutto maiuscolo - LOWERCASE tutto minuscolo - 
+CAPITALIZE prime lettere in maiuscolo*/
+
+
+</style>
+</head>
+
+ <body>
+  <!--CSS IN LINEA Come attributo html usando STYLE-->
+    <h1 style="color: yellow;">TITOLO</h1> <!--Ricorda sempre del conflitto. In linea vince su css pagina ed esterno-->
+    <hr>
+    
+ </body>
+ </html>
+
+_________________________________________________CSS ESTERNO __________________________________________________________
+
+/* Foglio di stile per modificare l'aspetto del html.
+All' interno della parentesi indichiamo la proprietà html da modificare, 
+e successivammente indichiamo il valore e il parametro ammessi */
+
+body  { 
+     background-color: red;
+     /* Background color indica lo sfondo della pagina */
+}
+
+h1      {
+     color: white;
+     text-align: center;
+     /* Color indica il colore del testo in h1
+        Text.align indica l'allineamento del testo.
+        I paramentri ammessi sono: Center - Left o End- Right o Start - Justify */
+
+}
