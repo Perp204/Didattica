@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selettori</title>
+
+</head>
+<style>
+    p{
+        color: orange;
+    }
+    /* Selettore ID serve per dare un nome a un oggetto html,
+     al quale si da una proprietà specifica, 
+     e viene richiamato con # e nome oggetto */
+     #one{
+        color: green;
+     }
+     /* Selettore CLASS serve per dare un nome a un oggetto, al quale
+     si da una proprietà specifica e viene richiamato con . e nome oggetto*/
+     .two {
+        color: blue;
+     }
+
+     .mioh1{
+        font-family: Arial, Helvetica, sans-serif;
+        color:teal;
+        text-align: left;   /* Messo sennò allineato al centro - css normale batte class*/
+        
+     }
+     h1{
+        text-align: center;   /* se non mettevo text align left nella class mioh1 si sarebbe allineata al centro*/
+     }
+     
+</style>
+<body>
+  
+
+    <h1 class="mioh1"> TITOLO </h1>
+    <h1> TITOLO </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint commodi reiciendis a ex culpa voluptates! Animi, tenetur suscipit? Dolore, sapiente doloribus earum totam nemo ipsum eos laborum voluptas nisi ipsa!</p>
+
+    <p id="one">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis culpa sequi libero voluptatem nostrum atque, nulla natus provident fugit ipsam recusandae maxime fuga sed, illum sapiente, aspernatur incidunt animi rem?</p>
+
+    <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, neque! Quam quae fuga tempore nobis exercitationem adipisci cupiditate. Neque, cum distinctio ullam eum blanditiis illo obcaecati! Dolore non quibusdam error.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ea assumenda quia ratione laudantium dolore, reiciendis adipisci cumque ipsam voluptate nobis! Corrupti quos quod amet, nihil sed porro placeat itaque?</p>
+</body>
+</html>
