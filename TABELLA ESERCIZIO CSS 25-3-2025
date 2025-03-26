@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella esercizio 2</title>
+<style>
+    ul {
+        list-style-type:square;
+    }
+
+    table {
+        color: rgb(10, 10, 146);
+    }
+</style>
+
+</head>
+
+<body>
+    <table width="100%">
+        <tr>
+            <td>Lorem ipsum dolor sit <br> amet.</td>
+            <td>Lorem ipsum dolor sit <br> amet.</td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        Erat tempor consetetur <br>
+                        dolor facer no molostie <br>
+                        kasd.
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ol>
+                    <li>
+                        Erat tempor consetetur <br>
+                        dolor facer no molostie <br>
+                        kasd.
+                    </li>
+                 </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Dolores ex ea ipsum <br>
+                        labore est.
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ol>
+                    <li>Dolores ex ea ipsum <br>
+                        labore est.</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Et quod sed dolores <br>
+                        adipiscing no diam 
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ol>
+                    <li>Et quod sed dolores <br>
+                        adipiscing no diam</li>
+                </ol>
+            </td>
+        </tr>
+
+        
+    </table>
+</body>
+</html>
