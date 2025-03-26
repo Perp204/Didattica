@@ -1,48 +1,48 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabella valori nutrizionali</title>
-<style>
-table, th {
-    border-width: 1px;
-    border-style: solid;
-    border-collapse: collapse;
-}
+    <title>Document</title>
+    <style>
+        td{
+            text-align: center;
+        }
 
-.bordo1{
-    border-width: 1px;
-    border-style: solid;
-    border-collapse: collapse;
-    height: 40px;
-}
+        table{
+            border-width: 1px;
+            border-style: solid;
+            border-collapse: collapse;
+            color: rgb(14, 14, 96);
+            font-weight: 460;
+           
+
+        }
+        .bordo{
+            border-width: 1px;
+            border-style: solid;
+            height: 50px;
+        }
+
+        .sfondoazzurro{
+            background-color: rgb(209, 235, 244);
+        }
 
 
-.titoloblu{
-    background-color: rgb(3, 3, 51);
-    color: wheat;
-    height: 40px;
-}
-.sfondoazzurro{
-    background-color: rgb(203, 223, 230);
-    
-}
-
-th, td, tr {
-    color: rgb(2, 2, 36);
-}
-</style>
+    </style>
 </head>
 
 <body>
+    <thead>
     <table width="100%">
-        <tr>
-           <th colspan="6" class="titoloblu">
-            <h3>VALORI NUTRIZIONALI</h1></th>
+        <tr class="bordo ," style="background-color: rgb(6, 6, 67); color: white;">
+           <th colspan="6">
+            <h2>VALORI NUTRIZIONALI</h2></th>
         </tr>
+    </thead>
+    <tbody>
         
-        <tr class="bordo1">
+        <tr class="bordo">
            <td></td>
            <td>100 g</td>
            <td>porzione (150 g)</td>
@@ -52,7 +52,7 @@ th, td, tr {
                 riferimento</td>
         </tr>
         <tr class="sfondoazzurro">
-            <td>Energia </td>
+            <td style="text-align: left;">Energia </td>
             <td>1545 kj <br>
                 364 kcal </td>
             <td>2318 kj <br>
@@ -63,7 +63,7 @@ th, td, tr {
                 2000 kcal</td>
         </tr>
         <tr>
-            <td>Grassi</td>
+            <td style="text-align: left;">Grassi</td>
             <td>0,8 g </td>
             <td>1,2 g </td>
             <td>1,1% </td>
@@ -71,7 +71,7 @@ th, td, tr {
             <td>70 g </td>
         </tr>
         <tr class="sfondoazzurro">
-            <td>di cui grassi saturi</td>
+            <td style="text-align: left;">di cui grassi saturi</td>
             <td>0 g </td>
             <td>0 g </td>
             <td>0,0% </td>
@@ -79,7 +79,7 @@ th, td, tr {
             <td>20 g </td>
         </tr>
         <tr>
-            <td>Carboidrati</td>
+            <td style="text-align: left;">Carboidrati</td>
             <td>77 g </td>
             <td>116 g </td>
             <td>29,6%</td>
@@ -87,7 +87,7 @@ th, td, tr {
             <td>260 g </td>
         </tr>
         <tr class="sfondoazzurro">
-            <td>di cui zuccheri</td>
+            <td style="text-align: left;">di cui zuccheri</td>
             <td>1,7 g </td> 
             <td>2,6 g </td>
             <td>1,9 % </td>
@@ -95,7 +95,7 @@ th, td, tr {
             <td>90 g </td>
         </tr>
         <tr>
-            <td>Fibre</td>
+            <td style="text-align: left;">Fibre</td>
             <td>2,4 g </td>
             <td>3,6 g </td>
             <td></td>
@@ -103,7 +103,7 @@ th, td, tr {
             <td>g</td>
         </tr>
         <tr class="sfondoazzurro">
-            <td>Proteine </td>
+            <td style="text-align: left;" >Proteine </td>
             <td>11 g </td>
             <td>16 g </td>
             <td>22,0% </td>
@@ -111,15 +111,18 @@ th, td, tr {
             <td>50 g </td>
         </tr>
         <tr>
-            <td>Sale</td>
+            <td style="text-align: left;">Sale</td>
             <td>0,01 g </td>
             <td>0,02 g </td>
             <td>0,2% </td>
             <td>0,2% </td>
             <td>6 g </td>
         </tr>
+     </tbody>
     </table>
 
     
+</body>
+</html>
 </body>
 </html>
