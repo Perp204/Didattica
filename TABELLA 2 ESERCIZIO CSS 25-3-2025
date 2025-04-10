@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .lista1 {
+            list-style-type: square;
+        }
+        .lista2 {
+            list-style-type: none;
+
+        }
+    </style>
 </head>
 <body>
     <table width="100%">
@@ -13,23 +22,22 @@
         </tr>
     
         <td>
-        <ul>
+        <ul class="lista1">
             <li>psum</li>
             <li>psum</li>
             <li>psum</li>
         </ul>
     </td>
     <td>
-        <ol>
-            <li>psum</li>
-            <li>psum</li>
-            <li>psum</li>
+        <ol class="lista2">
+            <li>1) &nbsp psum</li>
+            <li>2) &nbsp psum</li>
+            <li>3) &nbsp psum</li>
         </ol>
     </td>
-        
 
     </table>
     
 </body>
 </html>
-                  
+           
