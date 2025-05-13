@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            }
+        .box1 {
+            background-color: aqua;
+            position: absolute;
+            width: 100%;
+            
+            }
+
+        .box1 img {
+            width: 50%;
+            height: 180px;
+            border: 2px solid red;
+            position: absolute;
+            left: 25%;
+            
+             }
+
+        .box1 p {
+            width: 100%;
+            
+            }
+
+        .box2 {
+            background-color: blueviolet;
+            width: 100%;
+            position: relative;
+            top: 20px;
+            text-align: center;
+            z-index: 0;
+             }
+
+        .box3 {
+            background-color:red;
+            width: 100%;
+            position: fixed;
+            bottom: 0px;
+             }
+
+        nav {
+            background-color: blue;
+            color: aliceblue;
+            position: fixed;
+            top: 0px;
+            width: 100%;  /* importante le dimensioni , prova a levarle*/
+        }
+
+        h1 {
+            margin-top: 40px; /* per creare spazio , prova a levarlo */
+        }
+    </style>
+</head>
+<body>
+    <h1>impaginazioni relative/fixed</h1>
+    <nav><ul><li>Home</li></ul></nav>
+    <div class="box1">div1
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis enim eveniet optio, numquam labore facere. Quam, ullam quos. Obcaecati blanditiis nemo error atque quam, porro placeat dolorum sapiente nostrum maxime!</p>
+        <img src="https://cdn.pixabay.com/photo/2025/05/04/17/47/dog-9578735_1280.jpg">
+    </div>
+    <div class="box2">div2</div>
+    <div class="box3">div3</div>
+</body>
+</html>
