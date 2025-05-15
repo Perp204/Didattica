@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+         * {
+            box-sizing: border-box;
+            padding: 0%;
+           }
+
+/* I  Il CONTENITORE deve avere la propietà DISPLAY FLEX */
+        .contenitore {
+            width: 100%;
+            display: flex;
+    /* Con FLEX DIRECTION da sinistra verso destra con ROW e per
+            cambiare l'ordine dei blocchi usiamo ROW-REVERSE
+        Se vogliamo mettere i blocchi in colonna usiamo COLOUMN o COLOUMN REVERSE */
+            flex-direction: row;
+    /* Possiamo rendere fluidi i blocchi con la proprietà FLEX-WARP
+    con i valori NO WAPR e WARP (fluidi) */
+            flex-wrap: wrap; 
+    /* Distanza tra i blocchi */
+            gap: 10px;
+    /* Allinea i paragrafi - span - titoli h1 a h6 - address - blockquote */
+            text-align: center;
+    /*Allinea elementi come figure - video - img - div - iframe 
+      all' interno di un contenitore */
+            align-items: start;
+
+                     }
+  /* _______________AREA BOX ______________*/
+        .box1 {
+            background-color: aqua;
+          /*  width: 25%; (Lo posso levare - il FLEX determina grandezza - 1 tutto uguale / 1 e 2 più grande)*/
+            flex: 1;
+            /*Si può usare INITIAL come prorpietà flex del primo contenitore */
+        }
+
+        .dentrobox {     /* DIV dentro un blocco, viene considerato ITEMS! Lo allineo con ALIGN ITEMS nel contenitore principale*/
+            width: 50%;     
+            height: 50px;
+            background-color: red;
+        }
+
+
+        .box2 {
+            background-color: red;
+           /* width: 25%;*/
+            flex: 1;
+            
+            
+              }
+
+            .box3 {
+                background-color: blue;
+                /* width: 25%; */
+                flex: 1;
+                
+                  }
+
+            .box4 {
+                background-color: greenyellow;
+                /* width: 25%; */
+                flex: 1;
+                  }
+
+        /*___________FINE AREA BOX_______*/
+
+           nav {
+                background-color: green;
+                width: 100%;
+            }
+
+            /* Impaginazione DISPLAY e le sue innumerevoli proprietà*/
+
+            li {
+                list-style-type: none;
+                display: inline-block; /* La proprietà INLINE BLOCK mette più oggetti in linea sulla stessa riga */
+                padding: 10px;
+                margin: -1px;
+                background-color: lightgreen;
+            }
+
+            h1 {
+                margin-top: 40px;
+            }
+/*____________________________________________________________*/
+
+            .grigliacontenitore {
+                display: grid;
+                /*GRID-TEMPLATE-COLOUMNS numero di colonne generato da quanti AUTO metto / 
+                  Può essere scritto anche in percentuale */
+                grid-template-columns: auto auto;
+            /*  grid-template-columns: 70% 30% */
+                /* COLOUMN GAP spazio tra colonne o RAW GAP spazio tra righe */
+                column-gap: 5px;
+            }
+
+            .grigliacontenitore > div { /* >serve per far ereditare le proprietà ai div interni. cosi ereditano la DISPLAY GRID */
+                background-color: yellow;
+                border: 1px black solid;
+            }
+
+    </style>
+</head>
+<body>
+    <h1>Impaginazione DISPLAY FLEX + GRID (griglia)</h1>
+    <nav>
+        <ul>
+            <li>HOME</li>
+            <li>SERVIZI</li>
+        </ul>
+    </nav>
+    <!--CONTENITORE-->
+    <div class="contenitore">
+        <div class="box1">
+            <p>box1</p>
+            <div class="dentrobox"></div>   <!--DIV dentro blocco per lavorarlo con ALIGN ITEMS-->
+        </div>
+         <div class="box2">
+            <p>Box2</p>
+        </div>
+        <div class="box3">
+            <p>box3</p>
+        </div>
+        <div class="box4">
+        <p>box4</p>
+        </div>
+    </div>
+    <!--FINE CONTENITORE-->
+<br>
+
+    <div class="grigliacontenitore">
+        <div>BLOCCO1</div>
+        <div>BLOCCO2</div>
+    </div>
+</body>
+</html>
